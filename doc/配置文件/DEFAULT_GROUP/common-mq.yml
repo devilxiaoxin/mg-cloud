@@ -1,0 +1,4 @@
+rocketmq:
+  name-server: 10.211.55.11:9876
+  producer:
+    send-message-timeout: 30000

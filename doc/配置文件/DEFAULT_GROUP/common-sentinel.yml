@@ -1,0 +1,5 @@
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: 10.211.55.11:8858

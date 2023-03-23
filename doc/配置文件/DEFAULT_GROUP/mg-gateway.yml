@@ -1,0 +1,20 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    gateway:
+      enabled: true
+      discovery:
+        locator:
+          lower-case-service-id: true
+      routes:
+        #
+        - id: mg-demo-service
+          uri: lb://mg-demo-service
+          predicates:
+            - Path=/mg-demo-service/**
+        #
+        - id: mg-demo-consumer
+          uri: lb://mg-demo-consumer
+          predicates:
+            - Path=/mg-demo-consumer/**

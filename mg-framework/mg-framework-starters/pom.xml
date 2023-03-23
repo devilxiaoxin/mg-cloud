@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mg-framework</artifactId>
+        <groupId>com.miraclegenesis.cloud</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mg-framework-starters</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>mg-framework-starter-nacos</module>
+        <module>mg-framework-starter-mysql</module>
+        <module>mg-framework-starter-dubbo</module>
+        <module>mg-framework-starter-web</module>
+        <module>mg-framework-starter-redis</module>
+        <module>mg-framework-starter-rocketmq</module>
+    </modules>
+
+
+</project>

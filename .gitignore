@@ -1,0 +1,23 @@
+# maven #
+target
+logs
+
+# windows #
+Thumbs.db
+
+# Mac #
+.DS_Store
+
+# idea #
+.idea
+*.iml
+/.idea/
+
+# jrebel #
+rebel.xml
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/target

@@ -1,0 +1,10 @@
+# 定时任务配置
+job:
+  adminAddresses: http://10.211.55.11:9900/xxl-job-admin/
+  accessToken:
+  appName: ${spring.application.name}
+  executorAddress:
+  executorIp:
+  executorPort:
+  logPath: /Users/myg/Documents/data/logs/job/${spring.application.name}
+  logRetentionDays: 30

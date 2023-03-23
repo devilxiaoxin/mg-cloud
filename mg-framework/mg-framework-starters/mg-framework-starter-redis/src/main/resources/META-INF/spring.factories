@@ -1,0 +1,4 @@
+# PropertySource Loaders
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.miraclegenesis.framework.redis.RedisCacheAutoConfiguration,\
+com.miraclegenesis.framework.redis.RedissonAutoConfiguration
